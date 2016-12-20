@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Enter l and b of rectangle"
+read l
+read b
+area=`expr $l \* $b`
+p=`expr $l + $b`
+perimeter`expr 2 \* $p `
+echo "Area = $area"
+echo "Perimetre = $perimeter"echo "Enter radius"
+read r
+areac=`expr 2 \* 3 \* $r`
+echo "Area of Circle = $areac"
